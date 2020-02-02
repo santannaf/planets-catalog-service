@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: planets-info-service
+  output:
+    ansi:
+      enabled: always
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+      exclude: static/**, public/**
